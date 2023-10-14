@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /*
 *
-* @author DevDaaniel
+* @Author DevDaaniel
 *
 */
 
@@ -30,13 +30,12 @@ public class SignIn {
         return false;
     }
     public static void main(String[] args) {
-        String sqliteDB = "jdbc:sqlite:/home/daniel/IdeaProjects/SignTerminal/src/main/java/org/srdaniel/sign/database.sqlite";
+        var sqliteDB = "jdbc:sqlite:/home/daniel/IdeaProjects/SignTerminal/src/main/java/org/srdaniel/sign/database.sqlite";
         Connection connection = null;
 
         try {
             connection = DriverManager.getConnection(sqliteDB);
         } catch (SQLException e) {
-            System.out.println("Connection SQLite error");
             e.printStackTrace();
             return;
         }

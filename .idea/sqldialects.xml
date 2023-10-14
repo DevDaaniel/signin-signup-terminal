@@ -2,5 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/main/java/org/srdaniel/sign/SignIn.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/srdaniel/sign/SignUp.java" dialect="SQLite" />
   </component>
 </project>
