@@ -2,10 +2,8 @@ package org.srdaniel.sign;
 
 import java.util.Scanner;
 
-/*
- *
+/**
  * @Author DevDaaniel
- *
  */
 
 public class Main {

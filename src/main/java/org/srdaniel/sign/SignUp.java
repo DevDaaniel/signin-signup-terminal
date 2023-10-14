@@ -6,10 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-/*
-*
+/**
 * @Author DevDaaniel
-*
 */
 
 public class SignUp {
@@ -30,7 +28,7 @@ public class SignUp {
     }
 
     public static void main(String[] args) {
-        String sqliteDB = "jdbc:sqlite:/home/daniel/IdeaProjects/SignTerminal/src/main/java/org/srdaniel/sign/database.sqlite";
+        String sqliteDB = "jdbc:sqlite:/home/daniel/IdeaProjects/SignTerminal/src/main/java/org/srdaniel/sign/database.db";
         Connection connection = null;
 
         try {

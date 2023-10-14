@@ -7,10 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-/*
-*
+/**
 * @Author DevDaaniel
-*
 */
 
 public class SignIn {
@@ -25,12 +23,12 @@ public class SignIn {
             ResultSet resultSet = preparedStatement.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        return false;
     }
+
     public static void main(String[] args) {
-        var sqliteDB = "jdbc:sqlite:/home/daniel/IdeaProjects/SignTerminal/src/main/java/org/srdaniel/sign/database.sqlite";
+        var sqliteDB = "jdbc:sqlite:/home/daniel/IdeaProjects/SignTerminal/src/main/java/org/srdaniel/sign/database.db";
         Connection connection = null;
 
         try {
