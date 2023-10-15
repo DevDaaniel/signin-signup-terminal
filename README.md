@@ -13,7 +13,7 @@
 ## **Database Structure**
 
 > The database includes a table named `users`. This table has the following columns:
-- `id` (unique identifier)
+- `id` (unique identifier) 
 - `name` (varchar, user's name)
 - `password` (varchar, user's password)
 
