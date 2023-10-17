@@ -1,4 +1,4 @@
-# **Terminal Sign Document**
+# **Terminal Sign Doc**
 
 ---
 
